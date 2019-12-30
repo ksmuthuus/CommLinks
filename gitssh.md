@@ -6,3 +6,5 @@
     ssh-add ~/.ssh/id_rsa
 4. Check key pair exists:
     ls-a -l ~/.ssh
+5. Show RSA public key: cat ~/.ssh/id_rsa.pub
+6. Test SSH to git hub: ssh -T git@github.com
