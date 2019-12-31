@@ -5,4 +5,5 @@
 5. Push git upstream: git push -u {key} {branch}
 6. Change git remote url to ssh: git remote set-url {key} git@github.com:{username}/repo.git
 7. Sync with base branch: git checkout master, git pull, git checkout {feature-branch}, git merge master
-
+8. View all commits: git log
+9. Undo lat commit: git revert --soft HEAD~1
