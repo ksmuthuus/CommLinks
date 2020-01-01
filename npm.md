@@ -6,5 +6,5 @@ npm view {module_name} dependencies,
 npm view {module_name} versions
 4. Find outdated packages: npm outdated
 5. Update packages to latest minor & patch: npm update
-6.Update to latest major version: npm i -g npm-check-updates && ncu && ncu -u
+6.Update to latest major version: npm i -g npm-check-updates && ncu && ncu -u && npm i
 
