@@ -10,24 +10,22 @@ ssh -i *.pem user@ip
 yum update -y
 ```
 
-### Install httpd
+### get admin privileges
 ```sh
-yum install httpd.x86_64
+sudo su -
 ```
 
-### Start service
+### install httpd (Linux 2 version)
 ```sh
+yum update -y
+yum install -y httpd.x86_64
 systemctl start httpd.service
-systemctl enable https.service
+systemctl enable httpd.service
+echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 ```
 
 ### Test server
 ```sh
 curl localhost:80
 curl google.com
-```
-
-### Update page
-```sh
-echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 ```
