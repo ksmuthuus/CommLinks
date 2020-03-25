@@ -26,3 +26,8 @@ systemctl enable https.service
 curl localhost:80
 curl google.com
 ```
+
+### Update page
+```sh
+echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+```
