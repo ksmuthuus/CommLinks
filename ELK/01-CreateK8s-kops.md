@@ -7,6 +7,8 @@
 ```sh
   export AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id)
   export AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key)
+  export KOPS_STATE_STORE=s3://csdemo-com-kops-state-store #S3 bucket already created
+  export NAME=csdemo.k8s.local
 ```
 
 ## Create and validate Cluster

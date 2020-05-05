@@ -1,0 +1,1 @@
+<https://sematext.com/blog/kubernetes-elasticsearch/#toc-deploying-a-3-pod-elasticsearch-cluster-on-kubernetes-with-helm-examples-and-best-practices-8>
