@@ -6,6 +6,12 @@
 java -version
 ```
 
+## search available JDK versions
+
+```sh
+apt-cache search jdk
+```
+
 ## Remove older version
 
 ```sh
